@@ -125,13 +125,45 @@ public class EnclosureManager {
             // Demonstrates polymorphic method dispatch if
             // subclasses are used.
             // =================================================
-            e.displayDetails();
-
-            // =================================================
-            // FORMATTED OUTPUT / REPORT STRUCTURE
-            // Used to visually separate report entries.
-            // =================================================
-            System.out.println("----------------------");
+                e.displayDetails();
+    
+                // =================================================
+                // FORMATTED OUTPUT / REPORT STRUCTURE
+                // Used to visually separate report entries.
+                // =================================================
+                System.out.println("----------------------");
+            }
+        }
+    
+        // =========================================================
+        // REPORTING METHOD / STRING BUILDER
+        // Returns all Enclosure details as a formatted string.
+        //
+        // Demonstrates:
+        // - StringBuilder for efficient string concatenation
+        // - return values
+        // - null checking
+        // =========================================================
+        public String getReportAsString() {
+            StringBuilder report = new StringBuilder();
+    
+            for (Enclosure e : enclosures) {
+                report.append("Enclosure ID: ").append(e.enclosureId).append("\n");
+                report.append("Enclosure Name: ").append(e.enclosureName).append("\n");
+                report.append("Enclosure Type: ").append(e.enclosureType).append("\n");
+                report.append("Enclosure Capacity: ").append(e.enclosureCapacity).append("\n");
+    
+                if (e.keeper != null) {
+                    report.append("Assigned Keeper: ")
+                        .append(e.keeper.givenName)
+                        .append(" ")
+                        .append(e.keeper.familyName)
+                        .append("\n");
+                }
+    
+                report.append("----------------------\n");
+            }
+    
+            return report.toString();
         }
     }
-}

@@ -118,5 +118,8 @@ public class Main {
         for (Enclosure enclosure : enclosures) {
             enclosure.displayDetails();
         }
+        String report = manager.getReportAsString();
+        JsonStorage.saveManagerReport(report);
+
     }
 }
