@@ -1,4 +1,21 @@
 [
-  "Enclosure ID: 1234567\nEnclosure Name: Cage\nEnclosure Type: cage\nEnclosure Capacity: 3\nAssigned Keeper: Michael Kalaf\n----------------------\nEnclosure ID: 2345678\nEnclosure Name: Aquarium\nEnclosure Type: Water\nEnclosure Capacity: 5\nAssigned Keeper: John Doe\n----------------------\nEnclosure ID: 3456789\nEnclosure Name: Aviary\nEnclosure Type: Air\nEnclosure Capacity: 8\nAssigned Keeper: Jane Smith\n----------------------\n",
-  "Enclosure ID: 1234567\nEnclosure Name: Cage\nEnclosure Type: cage\nEnclosure Capacity: 3\nAssigned Keeper: Michael Kalaf\n----------------------\nEnclosure ID: 2345678\nEnclosure Name: Aquarium\nEnclosure Type: Water\nEnclosure Capacity: 5\nAssigned Keeper: John Doe\n----------------------\nEnclosure ID: 3456789\nEnclosure Name: Aviary\nEnclosure Type: Air\nEnclosure Capacity: 8\nAssigned Keeper: Jane Smith\n----------------------\n"
+  Enclosure ID: 1234567
+Enclosure Name: Cage
+Enclosure Type: cage
+Enclosure Capacity: 3
+Assigned Keeper: Michael Kalaf
+----------------------
+Enclosure ID: 2345678
+Enclosure Name: Aquarium
+Enclosure Type: Water
+Enclosure Capacity: 5
+Assigned Keeper: John Doe
+----------------------
+Enclosure ID: 3456789
+Enclosure Name: Aviary
+Enclosure Type: Air
+Enclosure Capacity: 8
+Assigned Keeper: Jane Smith
+----------------------
+
 ]
