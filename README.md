@@ -2,7 +2,7 @@ Bachelor of Information Technology
 BIT235 Object Oriented Programming, 2026 Semester 1 Page 1 of 3
 Workshop Extension
 Bringing it home! - ***Perfect Reminder*** 
-***Wonder who's Social Media posts these bright sparks were part of, the corrupt cop, the drug dealing or the poor woman used by the two***
+***Wonder who's Social Media posts these bright sparks were part of, the corrupt cop, the drug dealers/bikies or the poor woman used by the two***
 This Workshop is an extension of the project developed in this week’s OOP Concepts
 Workshop.
 Starting with that code…
